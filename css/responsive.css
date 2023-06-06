@@ -1,0 +1,53 @@
+@media (max-width: 570px) {
+    
+    .nav-list  {
+        background-color: #00223E;
+        width: 100%;
+        height: calc(100vh - 100px);
+        position: absolute;
+        top: 20px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display:none;
+        z-index: 2;
+        
+    }
+
+    .menu i {
+        margin-right: 5px;
+        display:block;
+        z-index: 2;
+    }
+
+  #barmenu:checked~ .nav-list{
+    display: flex;
+  }
+  .intro{
+    z-index: 1;
+    flex-direction: vertical;
+  }
+  .heroimg{
+    margin-top: 100px;
+    width: 40%;
+  }
+.slogan h2{
+    font-size: 24px;
+}
+.slogan p{
+    font-size: 20px;
+    font-weight: 150;
+}
+#reserva{
+    font-size: 15px;
+    margin: 0%;
+}
+#carta{
+    font-size: 15px;
+    margin: 0%;
+}
+.texto h3{
+    font-size: 15px;
+}
+  }
