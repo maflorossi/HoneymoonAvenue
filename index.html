@@ -26,10 +26,11 @@
     <input type="checkbox" id="barmenu">
 
 <ul class="nav-list">
-    <li><a href="#" class="navlink"><h1>Inicio</h1></a></li>
-    <li><a href="#" class="navlink"><h1>Carta</h1></a></li>
-    <li><a href="#" class="navlink"><h1>Reservas</h1></a></li>
-    <li><a href="#" class="navlink"><h1>Contacto</h1></a></li>
+    <li><a href="#intro" class="navlink"><h1>Inicio</h1></a></li>
+    <li><a href="#adv" class="navlink"><h1>Carta</h1></a></li>
+    <li><a href="#reservar" class="navlink"><h1>Reservas</h1></a></li>
+    <li><a href="#contactanos" class="navlink"><h1>Contacto</h1></a></li>
+    <li><a href="./login.html" class="navlink"><h1>Registrate</h1></a></li>
 </ul>
  </nav>
 </header>
@@ -41,13 +42,13 @@
 <div class="slogan">
 <h2>BIENVENIDO A LA NUEVA ERA </h2>
 <p>Experimenta la alimentación consciente</p>
-<button id= "reserva" type="button">RESERVA</button>
-<button id="carta" type="button">NUESTRA CARTA</button>
+<a href="#reservar"><button id= "reserva" type="button">RESERVA</button></a>
+<a href="#adv"><button id="carta" type="button">NUESTRA CARTA</button></a>
 </div>
 
 
 <div class="texto">
-<h3>Honeymoon Avenue es un restaurante que ofrece una experiencia innovadora. Creamos los mejores platos, junto a un equipo de reconocidos cocineros. Nos destacamos por tener un menú 100% free meat.</h3>
+<h3>Honeymoon Avenue es un restaurante que ofrece una experiencia innovadora. Creamos los mejores platos, junto a un equipo de reconocidos cocineros. Nos destacamos por tener un menú 100% free meat. Buscanos en el centro de la ciudad de Corrientes y permitinos deleitarte con una cena inolvidable. Nuestra velada se destaca por su menú en 5 pasos, acompañados de los mejores vinos del pais.</h3>
 </div>
 
 <div class="ventajas">
@@ -73,17 +74,33 @@
 <section class="color">
     <p id="linea">Lorem, ipsum.</p>
 </section>
+</div>
 
-<div class="contact">
+<div class="box" id="reservar">
+    <h1 class="contactus">RESERVA CON NOSOTROS:</h1>
+    <ul class="contact">
+    <label for="name">NOMBRE:</label>
+    <input type="text" name="NOMBRE" id="name">
+    <label for="apellido">APELLIDO:</label>
+    <input type="text" name="APELLIDO" id="apellido">
+    <label for="numero">TELEFONO:</label>
+    <input type="number" name="TELEFONO" id="numero">
+    <label for="fecha">DIA:</label>
+    <input type="datetime-local" name="DIA:" id="fecha" >
+    <label for="consulta">EXTRAS:</label>
+    <input type="text" name="EXTRAS" id="consulta">
+    <input type="button" name="ENVIAR" id="enviar" value="Enviar">
+    </ul>
+</div>
+
+<footer class="contacto" id="contactanos">
     <img src="./multimedia/undraw_mobile_app_re_catg.svg" class="imgcontacto" alt="contacto">
+    <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7080.144149458976!2d-58.85134672220253!3d-27.467015424529624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentro%20de%20corrientes%20capital!5e0!3m2!1ses!2sar!4v1688071552566!5m2!1ses!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     <section class="datos"> 
         <i class="fa-solid fa-map-pin"><h5> Corrientes, Argentina.</h5></i>
         <i class="fa-solid fa-phone"><h5> 0000-00000</h5></i>
         <i class="fa-solid fa-inbox"><h5>honeymooonavenue@gmail.com</h5></i>
-    </section>
-
-</div>
-
-    
+        
+    </footer>
 </body>
 </html>

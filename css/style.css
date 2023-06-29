@@ -6,9 +6,8 @@ html{
 body{
 margin: 0%;
 background: linear-gradient(to bottom,#00223E, #FFA17F);
-background-size: 100% 70%;
+background-size: 100% 100%;
 background-repeat: no-repeat;
-
 }
 
 .navbar{
@@ -226,7 +225,10 @@ h5{
     height: 100px;
     
 }
-.contact{
+
+/*footer*/
+
+.contacto{
     background-color: #dbdbdb;
     padding: 8%;
     padding-top: 4%;
@@ -241,17 +243,63 @@ h5{
 
 }
 .datos{
-    padding-top: 6%;
+    padding-top: 2%;
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
+.mapa{
+    justify-content: left;
+    padding-left: 110px;
+}
 
+/*Form*/
 
+.contact{
+    font-family:'Poltawski Nowy', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: #00223E;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 8%;
+    padding-top: 2%;
+    
+}
+.contactus{
+    padding-top: 8%;
+    text-align: center;
+    color: aliceblue ;
+}
+.box{
+    background-color: #00223E;
+    margin: 8%;
+    border-radius: 10px;
+    
+}
+#consulta{
+    padding: 6%;
+    border-radius: 10px;
+}
+#name, #apellido, #numero{
+    padding: 0.5%;
+    border-radius: 5px;
+}
 
+#fecha{
+    margin-top: 10px;
+    margin-right: 80%;
+    padding: 15px;;
+}
 
+#enviar{
+    color: #00223E;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 15px;
+}
 
-/*
-    background-color: rgb(255, 161, 127, .5);
-    background: linear-gradient(to top , rgb(0, 34, 62, .5),rgb(255, 161, 127, .5));*/
 
